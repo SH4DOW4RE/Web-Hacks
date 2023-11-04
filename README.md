@@ -4,7 +4,7 @@ A collection of 'hacks' for web developpement
 ---
 
 Prevent User from Pasting
-*javascript*
+<br>*javascript*
 ```javascript
 input.addEventListener('paste', (e) => {
   e.preventDefault();
@@ -14,7 +14,7 @@ input.addEventListener('paste', (e) => {
 ---
 
 Content-editable attribute
-*html*
+<br>*html*
 ```html
 <div contenteditable="true">
   This text can be edited by the user.
@@ -24,7 +24,7 @@ Content-editable attribute
 ---
 
 Smooth Scrolling
-*css*
+<br>*css*
 ```css
 html {
   scroll-behavior: smooth;
@@ -34,7 +34,7 @@ html {
 ---
 
 CSS calc Function
-*css*
+<br>*css*
 ```css
 height: calc(100vh - 20px);
 
